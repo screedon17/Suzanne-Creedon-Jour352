@@ -4,7 +4,10 @@
 
 /*Font set*/
 body {
-        font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size:1em; color:#444; font-weight:400;
+        font-family: "Open Sans", Arial, Helvetica, sans-serif;
+        font-size:1em;
+        color:#444;
+        font-weight:400;
       }
 
 /*Header font set*/
@@ -13,16 +16,11 @@ body {
               color:#33485e;
               text-transform:uppercase;
               text-align:center;
+              border-bottom: solid 1px #33485e;
+              width: 60%;
+              min-width: 300px;
+              margin: 0 auto;
             }
-
-div {
-        width: 300px;
-        border: 1px;
-        color:#33485e;
-        padding: 60%;
-        margin: 300px;
-      }
-
 
 /*Title font set*/
 #title {
@@ -31,6 +29,15 @@ div {
           text-transform:uppercase;
           text-align:center;
         }
+
+#sectionheader {
+                    font-size:1.5em;
+                    color:white;
+                    background-color:#33485e;
+                    text-transform:uppercase;
+                    text-align:left;
+                    font-weight:400;
+                  }
 
 /*Job Name Title*/
 .job {

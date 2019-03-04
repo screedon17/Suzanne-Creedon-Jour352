@@ -1,15 +1,21 @@
 
+/*Styles for my Resume*/
+
+
+/*Font s  et*/
 body {
         font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size:1em; color:#444; font-weight:400;
       }
 
-#headline {
+/*Header font set*/
+#name {
               font-size:3em;
               color:#33485e;
               text-transform:uppercase;
               text-align:center;
             }
 
+/*Title font set*/
 #title {
           font-size:1.5em;
           color:#33485e;
@@ -17,22 +23,26 @@ body {
           text-align:center;
         }
 
+/*Job Name Title*/
 .job {
         font-size:1.5em;
         font-weight:600;
       }
 
+/*Company Name Title*/
 .org {
         font-size:1.5em;
         font-weight:400;
       }
 
+/*Time spent at job*/
 .date {
           font-size:1em;
           font-weight:400;
           font-style: italic;
         }
 
+/*Misc. Resume Info*/
 .lists {
             font-size:1em;
           }

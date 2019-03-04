@@ -2,7 +2,7 @@
 /*Styles for my Resume*/
 
 
-/*Font s  et*/
+/*Font set*/
 body {
         font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size:1em; color:#444; font-weight:400;
       }
@@ -14,6 +14,15 @@ body {
               text-transform:uppercase;
               text-align:center;
             }
+
+div {
+        width: 300px;
+        border: 1px;
+        color:#33485e;
+        padding: 60%;
+        margin: 300px;
+      }
+
 
 /*Title font set*/
 #title {

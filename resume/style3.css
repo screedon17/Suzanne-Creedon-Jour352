@@ -1,0 +1,135 @@
+/*Styles for my Resume*/
+
+
+/*Font set*/
+body {
+        font-family: "Open Sans", Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        color: #444;
+        font-weight: 400;
+      }
+
+#container {
+                width: 100%;
+                max-width: 1200px;
+                margin: 0 auto;
+                padding-bottom: 50px;
+              }
+/*Header font set*/
+#name {
+              font-size: 3em;
+              color: #33485e;
+              text-transform: uppercase;
+              text-align: center;
+              border-bottom: solid 1px #33485e;
+              width: 60%;
+              min-width: 300px;
+              margin: 0 auto;
+            }
+
+/*Title font set*/
+#title {
+          font-size: 1.5em;
+          color: #33485e;
+          text-transform: uppercase;
+          text-align: center;
+          font-weight: 600;
+          margin-top: 20px;
+          margin-left: 0px;
+          margin-right: 0px;
+          margin-bottom: 0px;
+        }
+
+#sectionheader {
+                    font-size: 1.5em;
+                    color: white;
+                    background-color: #33485e;
+                    text-transform: uppercase;
+                    text-align: left;
+                    font-weight: 400;
+                    margin-bottom: 10px;
+                    margin-top: 20px;
+                    margin-left: 0px;
+                    margin-right: 0px;
+                    width: 70%;
+                    min-width: 300px;
+                  }
+
+#menu {
+              text-align: center;
+              list-style-type: none;
+              display: inline;
+          }
+
+#jobtitle {
+                        font-size: 1.5em;
+                        color: #33485e;
+                        text-transform: uppercase;
+                        text-align: left;
+                        font-weight: 400;
+
+                  }
+
+#organization {
+                    font-size: 1.25em;
+                  }
+
+#degrees {
+              margin-top: 5px;
+              margin-left: 0px;
+              margin-bottom: 0px;
+              margin-right: 0px;
+            }
+
+#do {
+          margin-top: 5px;
+          margin-left: 0px;
+          margin-bottom: 0px;
+          margin-right: 0px;
+        }
+
+#date {
+            margin-top: 2px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            font-style: italic;
+          }
+
+.description {
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    margin-left: 0px;
+                    margin-right: 0px;
+                }
+
+/*Job Name Title*/
+.job {
+        font-size:1.5em;
+        font-weight:600;
+      }
+
+/*Company Name Title*/
+.org {
+        font-size:1.5em;
+        font-weight:400;
+      }
+
+/*Time spent at job*/
+.date {
+          font-size:1em;
+          font-weight:400;
+          font-style: italic;
+        }
+
+/*Misc. Resume Info*/
+.lists {
+            font-size:1em;
+          }
+
+.top {
+            margin: 0 auto;
+            margin-bottom: 30px;
+            width: 60%;
+            min-width: 300px;
+        }

@@ -1,0 +1,11 @@
+#content {
+  width: 900px;
+  margin: 0 auto;
+}
+
+
+#byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}

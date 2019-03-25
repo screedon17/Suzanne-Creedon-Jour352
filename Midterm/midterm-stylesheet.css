@@ -1,0 +1,20 @@
+#content {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#pics {
+  width: 600px;
+  margin: 0 auto;
+}
+
+#byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+#date {
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+}

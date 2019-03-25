@@ -42,3 +42,9 @@ h4 {
             font-size: 17px;
             font-style: italic;
           }
+
+figcaption {
+              font-family: Helvetica, sans-serif;
+              font-size: 12px;
+              font-style: italic;
+            }

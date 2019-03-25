@@ -23,10 +23,10 @@ body {
 /*Header font set*/
 #name {
               font-size: 3em;
-              color: #33485e;
+              color: #306B8C;
               text-transform: uppercase;
               text-align: center;
-              border-bottom: solid 1px #33485e;
+              border-bottom: solid 1px #306B8C;
               width: 60%;
               min-width: 300px;
               margin: 0 auto;
@@ -48,7 +48,7 @@ body {
 
 #sectionheader {
                     font-size: 3em;
-                    color: #33485e;
+                    color: #306B8C;
                     text-transform: uppercase;
                     text-align: left;
                     font-weight: 400;
@@ -64,16 +64,16 @@ body {
               text-align: center;
               list-style-type: none;
               display: inline;
-              padding: 1em;
+              font-size: 3em;
           }
 
 #jobtitle {
-                        font-size: 1.5em;
-                        color: #33485e;
-                        text-align: left;
-                        font-weight: 400;
-                        font-family: serif;
-                  }
+              font-size: 1.5em;
+              color: #306B8C;
+              text-align: left;
+              font-weight: 400;
+              font-family: serif;
+            }
 
 #organization {
                     font-size: 1em;
@@ -143,10 +143,11 @@ body {
           }
 
 .top {
-            margin: 0 auto;
+            margin: auto;
             margin-bottom: 30px;
             width: 90%;
             min-width: 300px;
             font-family: Georgia;
             font-size: 1.5em;
+
         }

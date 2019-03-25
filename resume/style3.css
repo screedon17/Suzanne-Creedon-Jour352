@@ -9,6 +9,11 @@ body {
         font-weight: 400;
       }
 
+#content {
+            width: 900px;
+            margin: 0 auto;
+          }
+
 #container {
                 width: 100%;
                 max-width: 1200px;
@@ -28,22 +33,22 @@ body {
             }
 
 /*Title font set*/
-#title {
+/*#title {
           font-size: 1.5em;
           color: #33485e;
-          text-transform: uppercase;
-          text-align: center;
-          font-weight: 600;
+          text-align: left  ;
+          font-weight: 100;
           margin-top: 20px;
           margin-left: 0px;
           margin-right: 0px;
-          margin-bottom: 0px;
-        }
+          margin-bottom: 20px;
+          font-family: monospace;
+          font-size: 2em;
+        }*/
 
 #sectionheader {
-                    font-size: 1.5em;
-                    color: white;
-                    background-color: #33485e;
+                    font-size: 3em;
+                    color: #33485e;
                     text-transform: uppercase;
                     text-align: left;
                     font-weight: 400;
@@ -59,19 +64,19 @@ body {
               text-align: center;
               list-style-type: none;
               display: inline;
+              padding: 1em;
           }
 
 #jobtitle {
                         font-size: 1.5em;
                         color: #33485e;
-                        text-transform: uppercase;
                         text-align: left;
                         font-weight: 400;
-
+                        font-family: serif;
                   }
 
 #organization {
-                    font-size: 1.25em;
+                    font-size: 1em;
                   }
 
 #degrees {
@@ -79,7 +84,16 @@ body {
               margin-left: 0px;
               margin-bottom: 0px;
               margin-right: 0px;
+              font-family: Georgia;
             }
+
+#skills {
+            margin-top: 5px;
+            margin-left: 0px;
+            margin-bottom: 0px;
+            margin-right: 0px;
+            font-family: Georgia;
+          }
 
 #do {
           margin-top: 5px;
@@ -101,6 +115,7 @@ body {
                     margin-bottom: 10px;
                     margin-left: 0px;
                     margin-right: 0px;
+                    font-family: Georgia;
                 }
 
 /*Job Name Title*/
@@ -130,6 +145,8 @@ body {
 .top {
             margin: 0 auto;
             margin-bottom: 30px;
-            width: 60%;
+            width: 90%;
             min-width: 300px;
+            font-family: Georgia;
+            font-size: 1.5em;
         }

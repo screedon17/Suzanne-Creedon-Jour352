@@ -71,42 +71,34 @@
 <br>
 
 <!-- Timeline exercise-->
-<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=11zmKZBeucFYU3mGTRGAYjdO2sg4AM7mfxQJFe7i1j6k&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1Tovmh8lsX30W7RNYkFKPy8fh04Xggwm-7D9Ra9DcQVM&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
 
-<!-- first container-->
-  <div class="graphic-container">
-    <h2>What race are school shooters likely to be?</h2>
-      <p>The majority of school shooters have been White but many other races are represented by other shooters as well.</p>
-  <div id="raceSchoolShootersChart"></div>
-  <em>Source: Data collected by The Washington Post</em>
-  </div>
-  <!-- end of first container-->
 
 <br><br>
 
 <!-- second container-->
 <div class="graphic-container">
-  <h2>Where do school shootings occur?</h2>
-    <p>School shootings are more common in cities but they don't exclusively happen there.</p>
-<div id="whereChart"></div>
+  <h2>How Many People have we lost?</h2>
+    <p>With these disaters all mostly being flash flooding, the residents of Ellicott City don't have time to prepare so much before hand, they're always caught off guard. </p>
+<div id="whochart"></div>
 <em>Source: Data collected by The Washington Post</em>
 </div>
 <!-- end of second container-->
 
 <br><br>
 
-<!-- third container-->
+<!--beginning-->
 <div class="graphic-container">
   <h2>Examining the carnage</h2>
     <p>2012 and 2018 were tough years for the number of recorded school shootings with those being the highest recorded in the last 20 years.</p>
 <div id="myLineChart"></div>
 <em>Source: Data collected by The Washington Post</em>
 </div>
-<!-- end of third container-->
+<!--end of third container-->
 
-  <div id="raceSchoolShootersChart"></div>
+  <!--<div id="raceSchoolShootersChart"></div>-->
 
-  <div id="whereChart"></div>
+  <div id="whochart"></div>
 
 </div>
 <br>
@@ -120,35 +112,13 @@
 
    <script type="text/javascript">
 
-   var chart3 = c3.generate({
-    bindto: '#raceSchoolShootersChart',
-    data: {
-      // iris data from R
-      columns: [
-        ['Asian', 0.95],
-        ['American Indian', 2.86],
-        ['Black', 33.33],
-        ['Hispanic', 5.71],
-        ['White', 57.14],
-      ],
-      type : 'pie',
-      onclick: function (d, i) { console.log("onclick", d, i); },
-      onmouseover: function (d, i) { console.log("onmouseover", d, i); },
-      onmouseout: function (d, i) { console.log("onmouseout", d, i); }
-    },
-    color: {
-      pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
-    }
-  });
-
   var chart2 = c3.generate({
-   bindto: '#whereChart',
+   bindto: '#whoChart',
    data: {
      columns: [
-       ['City', 47.20],
-       ['Suburb', 27.10],
-       ['Town', 11.21],
-       ['Rural', 14.49],
+       ['1868', 42,
+       ['2016', 2],
+       ['2018', 1],
      ],
      type: 'bar'
    },

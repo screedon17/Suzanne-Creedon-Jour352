@@ -75,6 +75,15 @@ h4 {
   font-weight: 700;
 }
 
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18pt;
+  font-weight: 700;
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2em;

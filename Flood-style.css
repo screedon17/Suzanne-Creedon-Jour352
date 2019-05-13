@@ -1,0 +1,155 @@
+.navbar {
+  font-family: 'Montserrat', sans-serif;
+  color: White;
+  font-size: 1.25em;
+}
+
+ul.navbar-nav {
+ margin-left:70%;
+}
+
+text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25em;
+  max-width: 800px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+p {
+  font-family: 'PT Serif', serif;
+  text-align:left;
+  line-height:180%;
+  color: black;
+  font-size: 1.5em;
+  margin-top: 25px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 25px;
+}
+
+figure {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#chartcaption {
+  margin-left: 300px;
+}
+
+.hero-image
+	{
+		position:relative;
+		left: 10px;
+		z-index: 1;
+    max-width: 100%
+	}
+
+.hero-image_2
+	{
+		position:absolute;
+		top: 80px;
+		left: 125px;
+		z-index: 2;
+    max-width: 100%
+	}
+
+.graphic-container {
+  padding-top:30px;
+  padding-bottom:30px;
+  border-top:1px solid #cdcdcd;
+  border-bottom:1px solid #cdcdcd;
+  margin:0 auto;
+}
+
+.graphic-container h2 {
+  font-size: 2em;
+  padding-top:30px;
+  padding-bottom:30px;
+  font-family: 'Montserrat' !important, sans-serif;
+  margin-left: 200px;
+}
+
+.stack-image {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.stack-image_3 {
+  max-width: 100%;
+  padding-top: 30px;
+}
+
+.caption {
+  max-width: 100%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-family: 'Montserrat', sans-serif;
+  color:#999;
+}
+
+.hed {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+h1 {
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 45pt;
+  font-weight: 900;
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  padding-top: 20px;
+  width: 100%;
+  text-align: left;
+}
+
+.caption {
+  font-style: italic;
+}
+
+.row {
+  text-align: center;
+}
+
+#whoChart {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+#myLineChart {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+footer {
+  height: 100px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
